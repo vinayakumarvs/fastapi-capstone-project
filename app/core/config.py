@@ -13,6 +13,6 @@ class Settings:
     JWT_SECRET_KEY: str = JWT_SECRET_KEY
     JWT_ALGORITHM: str = "HS256"
     REDIS_URL: str = REDIS_URL
-    MODEL_PATH: str = "app/models/car_price_model.pkl"
+    MODEL_PATH: str = "app/models/car_price_model.joblib"
 
 settings = Settings()
